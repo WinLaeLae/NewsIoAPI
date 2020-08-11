@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/top_HeadLines_Fragment">
+
+    <fragment
+        android:id="@+id/top_HeadLines_Fragment"
+        android:name="mm.com.fairway.newsioapi.fragment.Top_HeadLines_Fragment"
+        android:label="fragment_top__head_lines_"
+        tools:layout="@layout/fragment_top__head_lines_" />
+</navigation>
